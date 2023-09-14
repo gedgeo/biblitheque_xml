@@ -1,11 +1,47 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
-*/
-/* 
-    Created on : 13 sept. 2023, 14:46:38
-    Author     : bbandou
-*/
+table{
+    border-collapse: collapse;
+    border: 2px black;
+/*    width:100%;*/
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+}
 
 
+td.type{
+    width: 20%;
+    text-align: center;
+    background-color: cornsilk ;
+}
+
+td.titre{
+    width: 20%;
+    text-align: center;
+    background-color: aqua;
+}
+
+td.auteur{
+    width: 20%;
+    text-align: center;
+    background-color: chartreuse;
+}
+
+td.numero{
+    width: 20%;
+    text-align: center;
+    background-color: peru;
+}
+
+.allee{
+    width: 20%;
+    text-align: center;
+    background-color: royalblue;
+}
+
+.rayon{
+    width: 20%;
+    text-align: center;
+    background-color: grey;
+}
 

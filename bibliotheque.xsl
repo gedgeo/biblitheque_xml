@@ -53,12 +53,21 @@
         <td class="titre">
             <xsl:value-of select="."/>
         </td>
+        <xsl:if test="../auteur = false()">
+            <td class="null"></td>
+            <xsl:if test="../numero = false()">
+            <td class="null"></td>
+        </xsl:if>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="auteur">
         <td class="auteur">
             <xsl:value-of select="."/>
         </td>
+        <xsl:if test="../numero=false()">
+            <td class="null"></td>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="numero">
